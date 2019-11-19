@@ -2,8 +2,8 @@ var productService = require("../services/product-service");
 
 class ShippingController {
   constructor() {
-    this.REGULAR_PRICE = 0.1;
-    this.OVERNIGHT_PRICE = 1;
+    this.REGULAR_PRICE = 0.8;
+    this.OVERNIGHT_PRICE = 5;
   }
 
   async getItemShipping(item) {
